@@ -6,25 +6,25 @@ import numpy as np
 from time import time
 import pyautogui
 
-#haystack_img = cv.imread('img/window.png', cv.IMREAD_UNCHANGED)
+#haystack_img = cv.imread('imgs/window.png', cv.IMREAD_UNCHANGED)
 
-pawn_b_img = cv.imread('img/pawn_b.png', cv.IMREAD_UNCHANGED) #0.82
-pawn_w_img = cv.imread('img/pawn_w.png', cv.IMREAD_UNCHANGED) #0.42 -> 0.39
+pawn_b_img = cv.imread('imgs/pawn_b.png', cv.IMREAD_UNCHANGED) #0.82
+pawn_w_img = cv.imread('imgs/pawn_w.png', cv.IMREAD_UNCHANGED) #0.42 -> 0.39
 
-king_b_img = cv.imread('img/king_b.png', cv.IMREAD_UNCHANGED) #0.78
-king_w_img = cv.imread('img/king_w.png', cv.IMREAD_UNCHANGED) #0.52
+king_b_img = cv.imread('imgs/king_b.png', cv.IMREAD_UNCHANGED) #0.78
+king_w_img = cv.imread('imgs/king_w.png', cv.IMREAD_UNCHANGED) #0.52
 
-queen_b_img = cv.imread('img/queen_b.png', cv.IMREAD_UNCHANGED)
-queen_w_img = cv.imread('img/queen_w.png', cv.IMREAD_UNCHANGED)
+queen_b_img = cv.imread('imgs/queen_b.png', cv.IMREAD_UNCHANGED)
+queen_w_img = cv.imread('imgs/queen_w.png', cv.IMREAD_UNCHANGED)
 
-bishop_b_img = cv.imread('img/bishop_b.png', cv.IMREAD_UNCHANGED) #0.76 -> 0.73
-bishop_w_img = cv.imread('img/bishop_w.png', cv.IMREAD_UNCHANGED) #0.5 -> 0.45
+bishop_b_img = cv.imread('imgs/bishop_b.png', cv.IMREAD_UNCHANGED) #0.76 -> 0.73
+bishop_w_img = cv.imread('imgs/bishop_w.png', cv.IMREAD_UNCHANGED) #0.5 -> 0.45
 
-knight_b_img = cv.imread('img/knight_b.png', cv.IMREAD_UNCHANGED) #0.75
-knight_w_img = cv.imread('img/knight_w.png', cv.IMREAD_UNCHANGED) #0.4 -> 0.36
+knight_b_img = cv.imread('imgs/knight_b.png', cv.IMREAD_UNCHANGED) #0.75
+knight_w_img = cv.imread('imgs/knight_w.png', cv.IMREAD_UNCHANGED) #0.4 -> 0.36
 
-rook_b_img = cv.imread('img/rook_b.png', cv.IMREAD_UNCHANGED) #0.75 -> 0.72
-rook_w_img = cv.imread('img/rook_w.png', cv.IMREAD_UNCHANGED) #0.51 -> 0.47
+rook_b_img = cv.imread('imgs/rook_b.png', cv.IMREAD_UNCHANGED) #0.75 -> 0.72
+rook_w_img = cv.imread('imgs/rook_w.png', cv.IMREAD_UNCHANGED) #0.51 -> 0.47
 
 #piece = [[imgb, threshold], [imgw, threshold]]
 rooks = [[rook_b_img, 0.75, "Rook"], [rook_w_img, 0.51, "Rook"]]
